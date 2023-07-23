@@ -42,10 +42,12 @@ const Form = () => {
           Message
         </label>
         <textarea className="form-control" id="message" required />
-      </div>
-      <button className="btn btn-danger" type="submit">
+      </div >
+    
+      <button className="btn btn-danger"  type="submit">
         {formStatus}
       </button>
+      
     </form>
   </div>
 )
