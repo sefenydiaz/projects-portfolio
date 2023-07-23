@@ -6,8 +6,10 @@
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
+      <navbar id="navbar">
       <ul className="nav nav-tabs">
         <li className="nav-item ">
+          
           <a 
             href="#about"
             onClick={() => handlePageChange('About')}
@@ -48,6 +50,7 @@ function Navigation({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </navbar>
     );
   }
   

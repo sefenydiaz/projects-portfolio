@@ -1,7 +1,10 @@
 export default function About() {
     return (
       <div>
-        <h1>About Me</h1>
+        <h1 id="about">About Me</h1>
+        <container id="img-container">
+        <img src="../../../assets/images/portfolio pic.jpeg" alt="portfolio pic" id="profile" ></img>
+        </container>
         <p>
        test
         </p>
@@ -9,4 +12,3 @@ export default function About() {
       </div>
     );
   }
-  
