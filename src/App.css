@@ -56,3 +56,11 @@ button.btn.btn-danger {
 #back {
     margin: 10px 
 }
+
+
+#footer, 
+#love,
+#cont,
+span.emoji {
+    background-color: #8b95c9;
+}
