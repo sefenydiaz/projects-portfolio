@@ -4,6 +4,10 @@
     background-color: #ebf5ee;
 }
 
+#header {
+    justify-content: right;
+    align-items: flex-end;
+}
 ul.nav.nav-tabs {
     background-color: #8b95c9;
 }
