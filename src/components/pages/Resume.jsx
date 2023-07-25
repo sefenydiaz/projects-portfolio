@@ -2,6 +2,18 @@ export default function Resume() {
     return (
       <div>
         <h1 id="resume">Resume</h1>
+        <h2>Download my resume using the link below!</h2>
+        <div id="resume-cont">
+        <a
+        href="https://docs.google.com/document/d/1ucvhyEvJ8At0YTavNhSitA2prAyS4RM8RpMBDGryGpA/edit"
+        // target="_blank"
+        // key="./resume.png"
+        className="resume-image"
+        >
+        <img src="./images/resume.png" alt="resume image" id="resume-img">
+        </img>
+        </a>
+        </div>
         <h2 id="front">Front-end Proficiencies</h2>
         <ul>
           <li>HTML</li>
@@ -22,7 +34,6 @@ export default function Resume() {
           <li>MongoDB, Mongoose</li>
           <li>GraphQL</li>
          </ul>
-        {/* link to downloadable resume and list of proficiencies/skills */}
       </div>
     );
   }

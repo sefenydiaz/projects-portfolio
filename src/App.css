@@ -1,13 +1,76 @@
 
 * {
     font-family: 'Merriweather', serif;
+    
+}
+
+body {
     background-color: #ebf5ee;
 }
 
-#header {
-    justify-content: right;
-    align-items: flex-end;
+/* HEADER */
+
+#header-cont {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #8b95c9;
 }
+#header {
+    background-color: #8b95c9;
+    margin-top: 10px;
+}
+
+#hello-cont{
+border: 3px solid black;
+border-radius: 5px;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#hello {
+/* text-align: right; */
+margin: 5px;
+
+
+/* animation properties */
+-moz-transform: translateX(-100%);
+-webkit-transform: translateX(-100%);
+transform: translateX(-100%);
+
+-moz-animation: my-animation 15s linear infinite;
+-webkit-animation: my-animation 15s linear infinite;
+animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+from { -moz-transform: translateX(-100%); }
+to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+from { -webkit-transform: translateX(-100%); }
+to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+from {
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+to {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+}
+
+/* NAVBAR */
 ul.nav.nav-tabs {
     background-color: #8b95c9;
 }
@@ -51,6 +114,18 @@ button.btn.btn-danger {
 #resume {
     text-align: center;
     margin: 10px;
+}
+
+#resume-img {
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+#resume-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #front {
