@@ -30,6 +30,8 @@
    
 
   ## Questions 
-  <a href="https://github.com/sefenydiaz">My GitHub username is: sefenydiaz</a>
-  <a href="mailto:sefenyd@gmail.com">My contact email is: sefenyd@gmail.com</a>
+  My GitHub username is:
+  <a href="https://github.com/sefenydiaz"> sefenydiaz</a>
+  My contact email is:
+  <a href="mailto:sefenyd@gmail.com"> sefenyd@gmail.com</a>
 
