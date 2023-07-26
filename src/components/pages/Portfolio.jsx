@@ -1,35 +1,18 @@
 
-import { projects } from "../../projects";
+import {projects} from "../../projects";
+import Project from "../Project";
 
 export default function Portfolio() {
+    console.log(typeof projects)
     return (
         <div className="portfolio">
-          <h1>Portfolio</h1>
-          <div className="container">
+            <h1>Portfolio</h1>
+            <div className="container">
 
-            {projects.map((project) => {
-              <a
-              href={project.url}
-              target='_blank'
-              key={project.image}
-              className='sm:w-1/2 w-100 p-4'
-              >
-            <div className="flex relative">
-                <img 
-                alt="gallery"
-                className="absolute"
-                src={project.image}
-                />
-            <div className="relative">
-                <h1 className='title'>
-                    {project.title}
-                </h1>
-                <p className='descr'>{project.descr}</p>
+                {projects && projects.map((project) => <Project data = {project}/>
+                )}
             </div>
-            </div>
-            </a>
-            })}
-            </div> 
-            </div>
+        </div>
     );
 }
+ 
