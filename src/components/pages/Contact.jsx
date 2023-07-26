@@ -8,7 +8,7 @@
 import React from 'react';
 
   
-const Form = () => {
+const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
   const onSubmit = (event) => {
     event.preventDefault()
@@ -52,5 +52,5 @@ const Form = () => {
   </div>
 )
 }
-export default Form
+export default Contact;
  
