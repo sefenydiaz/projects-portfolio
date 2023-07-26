@@ -10,7 +10,7 @@ export default function Resume() {
         // key="./resume.png"
         className="resume-image"
         >
-        <img src="./images/resume.png" alt="resume image" id="resume-img">
+        <img src="images/resume.png" alt="resume image" id="resume-img">
         </img>
         </a>
         </div>
