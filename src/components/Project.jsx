@@ -8,12 +8,12 @@ export default function Project({ data }) {
             target='_blank'
             rel="noreferrer"
             key={data.image}
-            className='sm:w-1/2 w-100 p-4'
+            className='sm:w-1/2 w-100 p-4' 
         >
             <div className="flex relative">
                 <img
                     alt="gallery"
-                    className="absolute"
+                    className="absolute" id="proj-img"
                     src={data.image}
                 />
                 <div className="relative">
