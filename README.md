@@ -15,7 +15,8 @@
    Welcome to my Project's Portfolio! Here you can access projects I have worked or collaborated on. There is also an included contact form within my Portfolio, as well as a link to my resume. This Portfolio was created using React.
 
   ## Installation 
-  No installation required! Please acces my portfolio through this link:
+  No installation required! Please access my portfolio through this link:
+  https://astounding-hotteok-5f5dde.netlify.app/
 
   ## Usage 
   
