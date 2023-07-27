@@ -128,6 +128,16 @@ button.btn.btn-danger {
     align-items: center;
 }
 
+#proj-cont {
+    display: block;
+}
+#proj-img {
+    height: 400px;
+    width: 700px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
 #front {
     margin: 10px;
 }

@@ -7,7 +7,7 @@ export default function Portfolio() {
     return (
         <div className="portfolio">
             <h1>Portfolio</h1>
-            <div className="container">
+            <div className="container" id="proj-cont">
 
                 {projects && projects.map((project) => <Project data = {project}/>
                 )}
