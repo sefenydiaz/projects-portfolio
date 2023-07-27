@@ -21,6 +21,7 @@ export default function Project({ data }) {
                         {data.title}
                     </h1>
                     <p className='descr'>{data.descr}</p>
+                    <p className="git">{data.git}</p>
                 </div>
             </div>
         </a>

@@ -90,6 +90,10 @@ a.nav-link:hover {
     text-align: center;
     margin: 10px;
 }
+
+#bio {
+    text-align: center;
+}
 #img-container {
     display: flex;
     justify-content: center;
