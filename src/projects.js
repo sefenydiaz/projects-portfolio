@@ -7,6 +7,13 @@ export const projects = [
         url: "https://sefenydiaz.github.io/test-arcade/",
     },
     {
+        title: "InterviewGuru",
+        descr: "AI generated job interviews, to land your next gig!",
+        image: "images/interviewguru.png",
+        git: "https://github.com/DanielG808/InterviewGuru",
+        url: "https://interview-guru-1fbcc0943ad0.herokuapp.com/",
+    },
+    {
         title: "MovieMentor",
         descr: "A movie recommendation application.",
         image: "images/moviementor.png",
