@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_o348wv5', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_o348wv5', 'template_endoh32', form.current, 'Noy0bsZ5WdSzWku0ke2ju')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -42,19 +42,19 @@ const Contact = () => {
         <label className="form-label" htmlFor="name">
           Name
         </label>
-        <input className="form-control" type="text" id="name" required />
+        <input className="form-control" type="text" name='from_name' id="name" required />
       </div>
       <div className="mb-3">
         <label className="form-label" htmlFor="email">
           Email
         </label>
-        <input className="form-control" type="email" id="email" required />
+        <input className="form-control" type="email" name='from_email' id="email" required />
       </div>
       <div className="mb-3">
         <label className="form-label" htmlFor="message">
           Message
         </label>
-        <textarea className="form-control" id="message" required> </textarea>
+        <textarea className="form-control" name='message' id="message" required> </textarea>
       </div >
     
       <button className="btn btn-danger"  type="submit">
