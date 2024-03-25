@@ -58,7 +58,7 @@ const Contact = () => {
       </div >
     
       <button className="btn btn-danger"  type="submit">
-        {formStatus}
+     
       </button>
       
     </form>
