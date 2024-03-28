@@ -1,12 +1,22 @@
-
+/* /*UNIVERSAL */
 * {
     font-family: 'Oswald', sans-serif;
     background-color: black;
 }
 
-/* body {
-    background-color: black;
-} */
+h1 {
+    text-align: center;
+    color: #8b95c9;
+}
+
+.text {
+    color: #8b95c9;
+}
+
+#text {
+    color: #8b95c9;
+    text-align: center;
+}
 
 /* HEADER */
 
@@ -72,9 +82,7 @@ to {
 }
 
 /* NAVBAR */
-/* ul.nav.nav-tabs {
-    
-} */
+
 
 a.nav-link {
     color: #8b95c9;
@@ -91,29 +99,27 @@ a.nav-link:hover {
     
 }
 
-#about {
+/* #about {
     text-align: center;
     margin: 10px;
-}
+} */
 
-#bio {
-    text-align: center;
-}
-#img-container {
+
+/* #img-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-#profile {
+} */
+
+
+  
+  #profile {
     height: 550px;
     width: 400px;
-    margin: 10px;
     border-radius: 150px;
     border-color: #63e2c6;
- 
-   
-}
+  }
 
 button.btn.btn-danger {
     background-color: #63e2c6;
@@ -163,19 +169,7 @@ button.btn.btn-danger {
    
 } */
 
-h1 {
-    text-align: center;
-    color: #8b95c9;
-}
 
-.text {
-    color: #8b95c9;
-}
-
-#text {
-    color: #8b95c9;
-    text-align: center;
-}
 
 .project-container {
     display: flex;
@@ -188,3 +182,30 @@ h1 {
 .submitBtn {
     background-color: white;
 }
+
+#about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #bio {
+    text-align: center;
+}
+
+/* Text Container */
+.text-container {
+    text-align: center;
+    max-width: 600px; /* Adjust max-width as needed */
+    
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Image Container */
+  #img-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
