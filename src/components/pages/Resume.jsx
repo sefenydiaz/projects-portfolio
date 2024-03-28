@@ -1,8 +1,8 @@
 export default function Resume() {
     return (
       <div style={{ height: '100vh'}}>
-        <h1>Resume</h1>
-        <h2>Download my resume using the link below!</h2>
+        <h1 className="text">Resume</h1>
+        <h2 className="text">Download my resume using the link below!</h2>
         <div id="resume-cont">
         <a
         href="https://docs.google.com/document/d/1ucvhyEvJ8At0YTavNhSitA2prAyS4RM8RpMBDGryGpA/edit"
@@ -14,8 +14,8 @@ export default function Resume() {
         </img>
         </a>
         </div>
-        <h2 id="front">Front-end Proficiencies</h2>
-        <ul>
+        <h2 className="text" id="front">Front-end Proficiencies</h2>
+        <ul className="text">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -24,8 +24,8 @@ export default function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
-        <h2 id="back">Back-end Proficiencies</h2>
-          <ul>
+        <h2 className="text" id="back">Back-end Proficiencies</h2>
+          <ul className="text">
           <li>APIs</li>
           <li>Node</li>
           <li>Express</li>

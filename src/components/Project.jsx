@@ -16,7 +16,7 @@ export default function Project({ data }) {
                     className="absolute" id="proj-img"
                     src={data.image}
                 />
-                <div className="relative">
+                <div id="text" className="relative">
                     <h1 className='title'>
                         {data.title}
                     </h1>
