@@ -19,7 +19,7 @@ const Contact = () => {
   }; 
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" style={{ height: '100vh'}}>
     <h2 className="mb-3">Contact Me</h2>
   
     <form ref={form} onSubmit={sendEmail}>

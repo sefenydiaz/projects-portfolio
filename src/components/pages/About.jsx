@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <div>
+      <div id="about-container" style={{ height: '100vh'}}>
         <h1 id="about">About Me</h1>
         <container id="img-container">
         <img src="images/portfolio pic.jpeg" alt="portfolio pic" id="profile" ></img>
