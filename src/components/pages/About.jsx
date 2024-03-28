@@ -1,7 +1,7 @@
 export default function About() {
     return (
       <div id="about-container" style={{ height: '100vh'}}>
-        <h1 className="text" id="about">About Me</h1>
+        <h1 className="text" id="about">SEFENY YISELL DIAZ</h1>
         <div id="img-container">
         <img src="images/portfolio pic.jpeg" alt="portfolio pic" id="profile" ></img>
         </div>

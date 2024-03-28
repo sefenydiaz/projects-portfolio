@@ -24,25 +24,25 @@ const Contact = () => {
   
     <form ref={form} onSubmit={sendEmail}>
       <div className="mb-3">
-        <label className="form-label" htmlFor="name">
+        <label id="text" className="form-label" htmlFor="name">
           Name
         </label>
         <input className="form-control" type="text" name="from_name" id="name" required />
       </div>
       <div className="mb-3">
-        <label className="form-label" htmlFor="email">
+        <label id="text" className="form-label" htmlFor="email">
           Email
         </label>
         <input className="form-control" type="email" name="from_email" id="email" required />
       </div>
       <div className="mb-3">
-        <label className="form-label" htmlFor="message">
+        <label id="text" className="form-label" htmlFor="message">
           Message
         </label>
         <textarea className="form-control" rows="5" name="message" id="message" required> </textarea>
       </div >
     
-      <button className="submitBtn"  type="submit" value='Send'>
+      <button id="text" className="submitBtn"  type="submit" value='Send'>
      Submit
       </button>
       

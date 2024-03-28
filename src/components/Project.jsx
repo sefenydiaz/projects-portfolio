@@ -10,6 +10,7 @@ export default function Project({ data }) {
             key={data.image}
             className='sm:w-1/2 w-100 p-4' 
         >
+            <div className="project-container">
             <div className="flex relative">
                 <img
                     alt="gallery"
@@ -23,6 +24,7 @@ export default function Project({ data }) {
                     <p className='descr'>{data.descr}</p>
                     <p className="git">{data.git}</p>
                 </div>
+            </div>
             </div>
         </a>
     );
