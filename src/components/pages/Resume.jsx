@@ -1,7 +1,7 @@
 export default function Resume() {
     return (
       <div style={{ height: '100vh'}}>
-        <h1 id="resume">Resume</h1>
+        <h1>Resume</h1>
         <h2>Download my resume using the link below!</h2>
         <div id="resume-cont">
         <a

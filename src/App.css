@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
     
 }
 
@@ -80,10 +80,14 @@ a.nav-link {
    
 }
 
+.nav-link.active {
+    background-color: #ebf5ee;
+}
+
 a.nav-link.active:hover,
 a.nav-link:hover {
     color: #f6ae2d;
-   
+    
 }
 
 #about {
@@ -156,4 +160,8 @@ button.btn.btn-danger {
 #cont,
 span.emoji {
     background-color: #8b95c9;
+}
+
+h1 {
+    text-align: center;
 }
