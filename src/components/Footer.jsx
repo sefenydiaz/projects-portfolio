@@ -3,7 +3,7 @@ const Footer = () => {
     return (
       <footer className="w-100 mt-auto p-4" id="footer">
         <div className="container text-center mb-5" id="cont">
-          <h4 id="love">
+          <h4 className="text" id="love">
             Made with{' '}
             <span
               className="emoji"

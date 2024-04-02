@@ -1,11 +1,21 @@
-
+/* /*UNIVERSAL */
 * {
-    font-family: 'Merriweather', serif;
-    
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
 }
 
-body {
-    background-color: #ebf5ee;
+h1 {
+    text-align: center;
+    color: #8b95c9;
+}
+
+.text {
+    color: #8b95c9;
+}
+
+#text {
+    color: #8b95c9;
+    text-align: center;
 }
 
 /* HEADER */
@@ -14,15 +24,15 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #8b95c9;
+    background-color: black;
 }
 #header {
-    background-color: #8b95c9;
+    
     margin-top: 10px;
 }
 
 #hello-cont{
-border: 3px solid black;
+border: 3px solid ;
 border-radius: 5px;
 overflow: hidden;
 display: flex;
@@ -33,6 +43,7 @@ align-items: center;
 #hello {
 /* text-align: right; */
 margin: 5px;
+color: #8b95c9;
 
 
 /* animation properties */
@@ -71,44 +82,44 @@ to {
 }
 
 /* NAVBAR */
-ul.nav.nav-tabs {
-    background-color: #8b95c9;
-}
+
 
 a.nav-link {
-    color: #2e3532;
+    color: #8b95c9;
    
+}
+
+.nav-link.active {
+    background-color: #ebf5ee;
 }
 
 a.nav-link.active:hover,
 a.nav-link:hover {
     color: #f6ae2d;
-   
+    
 }
 
-#about {
+/* #about {
     text-align: center;
     margin: 10px;
-}
+} */
 
-#bio {
-    text-align: center;
-}
-#img-container {
+
+/* #img-container {
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-#profile {
+} */
+
+
+  
+  #profile {
     height: 550px;
     width: 400px;
-    margin: 10px;
     border-radius: 150px;
     border-color: #63e2c6;
- 
-   
-}
+  }
 
 button.btn.btn-danger {
     background-color: #63e2c6;
@@ -151,9 +162,50 @@ button.btn.btn-danger {
 }
 
 
-#footer, 
+/* #footer, 
 #love,
-#cont,
-span.emoji {
-    background-color: #8b95c9;
+#cont
+ {
+   
+} */
+
+
+
+.project-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin: 0 auto; 
 }
+
+.submitBtn {
+    background-color: white;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #bio {
+    text-align: center;
+}
+
+/* Text Container */
+.text-container {
+    text-align: center;
+    max-width: 600px; /* Adjust max-width as needed */
+    
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Image Container */
+  #img-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+  }

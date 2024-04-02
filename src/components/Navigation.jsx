@@ -1,11 +1,14 @@
 // Nav titles need links to sections - About Me, Portfolio, Contact, Resume
 // links need to highlight when hovered over - css
 // section titles need to be highlighted when jumped to - css
-import {Link} from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 function Navigation() {
-  const currentPage = "About"
+  const location = useLocation();
+
+  const currentPage = location.pathname.substring(1); 
+  
     return (
       <navbar id="navbar">
       <ul className="nav nav-tabs">
@@ -39,7 +42,7 @@ function Navigation() {
             Portfolio
          </Link>
         </li>
-        <li className="nav-item">
+        <li className="nav-item ">
           <Link
             to="/contact"
             
